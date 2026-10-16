@@ -1,0 +1,49 @@
+{
+  "users": {
+    "smoke_b805c391@example.com": {
+      "name": "Smoke",
+      "email": "smoke_b805c391@example.com",
+      "hash": "$2a$10$c22qZ.jjBazkpZP1yJdkh.wD8Fwst4LnxHZLX0efjrAoBEkLhG.By",
+      "plan": "free",
+      "providers": [
+        "password"
+      ]
+    },
+    "otp_64b8dfb6@example.com": {
+      "name": "Otp 64b8dfb6",
+      "email": "otp_64b8dfb6@example.com",
+      "hash": "",
+      "plan": "free",
+      "avatar": "",
+      "emailVerified": true,
+      "providers": [
+        "otp"
+      ]
+    },
+    "web_bbcf07e9@example.com": {
+      "name": "Web Bbcf07e9",
+      "email": "web_bbcf07e9@example.com",
+      "hash": "",
+      "plan": "free",
+      "avatar": "",
+      "emailVerified": true,
+      "providers": [
+        "otp"
+      ]
+    }
+  },
+  "projects": [],
+  "shares": {},
+  "otps": {
+    "smoke_b805c391@example.com": {
+      "email": "smoke_b805c391@example.com",
+      "hash": "745a26c0e1c0866cb772e6bed8ab249670e28ce145094378b3deb016cdc2051d",
+      "expires": 1792169660809,
+      "attempts": 1,
+      "sends": [
+        1792169060809
+      ],
+      "lastSent": 1792169060809
+    }
+  }
+}

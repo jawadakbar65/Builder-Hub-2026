@@ -1,0 +1,13 @@
+{
+  "name": "builderhub-workspace",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npm --prefix frontend run preview",
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "npm --prefix frontend run dev:web",
+    "server": "npm --prefix server start",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview"
+  }
+}
